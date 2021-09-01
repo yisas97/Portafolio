@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /*
-* Project: Portfolio
-* Description: Personal Web Portfolio for MarskDev
-* Author: Marcial Ambriz
-* Author URI: --------------
-* Project URI: https://github.com/marskdev/portfolio
-* License: MIT (https://github.com/marskdev/portfolio/blob/main/LICENSE)
+
 */
 *, ::after, ::before {
   box-sizing: border-box;
@@ -91,12 +86,12 @@ section {
 } */
 /*    ||  UTILITIES     */
 .theme {
-  background: #282A3E;
+  background: #021c44;
   color: #A8A8C7;
 }
 
 .gradient-t {
-  background-image: linear-gradient(109.8deg, #F6BE5F -6.35%, #FA9875 105.29%);
+  background-image: linear-gradient(109.8deg, #19ebcf -6.35%, #3288cf 105.29%);
   color: transparent;
   -webkit-background-clip: text;
 }
@@ -118,8 +113,8 @@ section {
 
 .btn {
   font-weight: bold;
-  background-color: #F6BE5F;
-  border: 3px solid #F6BE5F;
+  background-color: #0da4af;
+  border: 3px solid #0da4af;
   border-radius: 0.8rem;
   color: #2B2D42;
   display: inline-block;
@@ -130,17 +125,17 @@ section {
   transition: transform 0.5s, box-shadow 0.5s;
 }
 .btn:hover {
-  box-shadow: 0px 1px 20px 0px #f6be5f;
+  box-shadow: 0px 1px 20px 0px #318bd4;
   transform: scale(1.02, 1.02);
 }
 
 .btn--outlined {
   background-color: transparent;
-  color: #F6BE5F;
+  color: #0da4af;
   transition: transform 0.5s, box-shadow 0.5s, background 0.5s;
 }
 .btn--outlined:hover {
-  background-color: #F6BE5F;
+  background-color: #318bd4;
   color: #2B2D42;
 }
 
@@ -332,7 +327,7 @@ section {
   font-size: 1.8rem;
 }
 .social-nav__link:focus {
-  color: #F6BE5F;
+  color: #5fbff6;
 }
 .social-nav__link:hover {
   color: #F6BE5F;
@@ -365,9 +360,9 @@ section {
   background-color: #202231;
 }
 .header__navbar .navbar__link:hover {
-  color: #F6BE5F;
-  box-shadow: 0px 1px 10px 0px #F6BE5F;
-  border-color: #F6BE5F;
+  color: #5fecf6;
+  box-shadow: 0px 1px 10px 0px #5fecf6;
+  border-color: #5fecf6;
   width: 100%;
   transition: 0.5s;
 }
@@ -375,9 +370,9 @@ section {
   opacity: 1;
 }
 .header__navbar .navbar__link--active {
-  color: #F6BE5F;
-  box-shadow: 0px 1px 10px 0px #F6BE5F;
-  border-color: #F6BE5F;
+  color: #5fecf6;
+  box-shadow: 0px 1px 10px 0px #5fecf6;
+  border-color: #5fecf6;
 }
 .header__navbar .navbar__text {
   opacity: 0;
@@ -406,6 +401,7 @@ section {
   padding-left: 0.5rem;
   transition: width 0.5s;
   z-index: 10;
+  visibility: hidden;
 }
 .header__menu .navbar--show {
   padding-right: 4.5rem;
@@ -575,7 +571,7 @@ section {
   border-radius: 0.8rem;
 }
 .project__content {
-  background-color: #30334A;
+  background-color: #2b2349;
   box-shadow: 0px 14px 25px -5px rgba(32, 34, 49, 0.7);
   border-radius: 0.8rem;
   padding: 1.6rem;
