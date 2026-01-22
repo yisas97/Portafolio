@@ -1,81 +1,90 @@
-# Portafolio - Jesús Junior Campos Vargas
+# Portafolio Personal
 
-## Perfil Profesional
-Profesional de TI con trayectoria en soporte, desarrollo y arquitectura de software. Combino habilidades técnicas en backend (Java/Spring) y frontend (Angular) con una visión estratégica para el diseño de sistemas. Experiencia en la gestión de artefactos de arquitectura, monitoreo de infraestructura y despliegue de microservicios.
+Sitio web de portafolio personal desarrollado con HTML, CSS y JavaScript vanilla. Presenta mi perfil profesional, habilidades técnicas, proyectos destacados y formulario de contacto.
 
-## Experiencia Laboral
+## Demo en Vivo
 
-### Analista de Arquitectura - Odybank (Marzo 2022 - Actual)
-- Analizar requerimientos de Análisis, Diseño y Construcción de Software
-- Identificar brechas y oportunidades de mejora en funcionalidades implementadas
-- Descubrir arquitectura tecnológica actual y arquitecturas de referencia
-- Administrar base de elementos de configuración y artefactos (diagramas, catálogos, matrices)
-- Elaborar y mantener estándares de arquitectura, procedimientos e instructivos
+https://yisas97.github.io/Portafolio/
 
-### Desarrollador de Software - Odybank (Septiembre 2021 - Marzo 2022)
-- Análisis de requerimientos funcionales y no funcionales
-- Diseño de prototipos de software
-- Planificación y monitoreo de actividades de diseño y pruebas
-- Diagnóstico y resolución de incidencias pre-producción
-- Desarrollo Full-stack (Base de Datos, Back-end, Front-end)
+## Características
 
-### Técnico de Equipos Informáticos - EsSalud (Diciembre 2018 - Junio 2019)
-- Instalación y mantenimiento de software
-- Reparación de hardware
-- Soporte a sistemas operativos Windows y Linux
+- Diseño responsivo y minimalista
+- Navegación suave entre secciones
+- Texto animado con efecto de máquina de escribir
+- Galería de proyectos con enlaces a repositorios
+- Formulario de contacto integrado con Formspree
+- Soporte para tema personalizado
+- Iconos de Material Icons y Font Awesome
 
-### Técnico de Equipos Informáticos - HIGH TECHNO WORLD S.A (Enero 2016 - Diciembre 2017)
-- Instalación y actualización de sistemas operativos
-- Mantenimiento preventivo y correctivo de equipos
+## Tecnologías
 
-### Técnico de Soporte de Servidores - Alternativa Tecnología (Marzo 2015 - Diciembre 2015)
-- Soporte físico y remoto a servidores
-- Configuración e instalación de software
-- Monitoreo de infraestructura
+- **HTML5**: Estructura semántica del sitio
+- **CSS3**: Estilos personalizados y diseño responsivo
+- **JavaScript**: Interactividad y animaciones
+- **Formspree**: Gestión de formularios de contacto
+- **Google Fonts**: Tipografías Lato, Open Sans, Roboto
+- **Font Awesome & Material Icons**: Iconografía
 
-## Stack Tecnológico
+## Estructura del Proyecto
 
-### Lenguajes de Programación
-- Java, JavaScript (Node.js), TypeScript
-- Python, Go, Rust
+```
+Portafolio/
+├── index.html           # Página principal
+├── main.css            # Estilos principales
+├── assets/
+│   └── js/
+│       └── index.js    # Scripts de interactividad
+└── static/
+    ├── images/         # Imágenes de proyectos y perfil
+    ├── icons/          # Iconos personalizados
+    └── curriculum.pdf  # CV descargable
+```
 
-### Frameworks
-- **Frontend**: Angular
-- **Backend**: Spring Framework, Quarkus, Django, Ruby on Rails, Rocket
+## Secciones
 
-### Bases de Datos
-- **Relacionales**: PostgreSQL, MySQL, SQL Server
-- **NoSQL**: MongoDB, Cassandra, Redis
+- **Hero**: Presentación principal con texto animado
+- **About**: Información profesional y biografía
+- **Skills**: Habilidades técnicas y blandas
+- **Projects**: Portafolio de proyectos destacados
+- **Contact**: Formulario de contacto
 
-### Herramientas y Plataformas
-- **Control de Versiones**: GitLab, GitHub, BitBucket
-- **CI/CD**: Jenkins
-- **Pruebas**: JUnit, JMeter, Cucumber, Selenium
-- **Contenerización**: Docker, Kubernetes
-- **Cloud**: Azure, AWS
+## Instalación Local
 
-### Arquitectura y Diseño
-- Desarrollo de microservicios
-- Patrones de Diseño (DDD, EDA)
-- ArchiMate
-- TOGAF
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/yisas97/Portafolio.git
+```
 
-## Educación
-- **Universidad Nacional de Ingeniería**
-  - Facultad de Ingeniería Industrial y Sistemas
-  - Escuela de Ingeniería de Sistemas
+2. Navegar al directorio:
+```bash
+cd Portafolio
+```
 
-## Idiomas
-- Español: Nativo
-- Inglés: Nivel B1
-- Italiano: Nivel A2
+3. Abrir `index.html` en tu navegador o usar un servidor local:
+```bash
+# Con Python
+python -m http.server 8000
+
+# Con Node.js (http-server)
+npx http-server
+```
+
+4. Visitar `http://localhost:8000`
+
+## Proyectos Destacados
+
+- **Gitzy**: Cliente Git TUI con integración de IA (Rust)
+- **Sistema de Facturación SUNAT**: Solución de facturación electrónica (Java/Spring Boot)
+- **Plataforma de Control de Comercio con IA**: Sistema de recomendaciones (Java/Maven)
+- **Bot WhatsApp Empresarial**: Automatización de mensajería (Node.js)
+- **Sistema de Inventario**: Gestión de activos (Ruby on Rails)
 
 ## Contacto
+
 - **Email**: jjcamposv@uni.pe
 - **LinkedIn**: [jesus-junior-campos-vargas](https://www.linkedin.com/in/jesus-junior-campos-vargas-3b0823143)
 - **GitHub**: [yisas97](https://github.com/yisas97)
-- **Portafolio**: https://yisas97.github.io/Portafolio/
 
----
+## Licencia
 
-*Última actualización: Enero 2026*
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
